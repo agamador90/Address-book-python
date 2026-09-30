@@ -21,7 +21,7 @@ for i in range(10):
     dog = Dog(breed,color,age)
     rescue.add_dog(dog)
  
-try:  # error handling in case the user enter a invalid age format 
+try:  # error handling just in case the user enter a invalid age format 
     user_breed = input("Insert a dog breed(Retriever, Lab, Poodle, Dachshund, Mutt): ")
     user_color = input("Insert a dog color(Blue, Brown, Gray, Black, White, Golden): ")
     user_age = int(input("Insert dog age in years: "))
