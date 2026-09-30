@@ -22,8 +22,8 @@ for i in range(10):
     rescue.add_dog(dog)
  
 try:  # error handling in case the user enter a invalid age format 
-    user_breed = input("Insert dog breed: ")
-    user_color = input("Insert dog color: ")
+    user_breed = input("Insert a dog breed(Retriever, Lab, Poodle, Dachshund, Mutt): ")
+    user_color = input("Insert a dog color(Blue, Brown, Gray, Black, White, Golden): ")
     user_age = int(input("Insert dog age in years: "))
     search_dog = Dog(user_breed,user_color,user_age)   
     print("You are looking for a ", search_dog.get_color(),
